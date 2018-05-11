@@ -1,1 +1,158 @@
+<!DOCTYPE html>
+<html>
+<title>Science Writing</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<body>
 
+<!-- Header -->
+<header class="w3-container w3-theme w3-padding" id="myHeader">
+    <img src="/sciencewriting/science-writing.png" alt="science writing" style="width:100%">
+    <div class="w3-padding-1">
+    </div>
+</header>
+
+<div class="w3-bar w3-theme">
+  <a href="#" class="w3-bar-item w3-button w3-padding-16">Home</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-16">About the Class</a>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button w3-padding-16">
+      Science Communication <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="javascript:void(0)" class="w3-bar-item w3-button">Science vs. Scientific Writing</a>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button">How To: Science Writing</a>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button">Qualities of Good & Bad Science Writing</a>
+            <a href="javascript:void(0)" class="w3-bar-item w3-button">How To: Scientific Writing</a>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button">Qualities of Good & Bad Scientific Writing</a>
+      </div>
+      </div>
+        <div class="w3-dropdown-hover">
+    <button class="w3-button w3-padding-16">
+      From Class to Real Life <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="javascript:void(0)" class="w3-bar-item w3-button">How Research Fits into Society</a>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button">Challenges due to Intersectionality</a>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button">Understanding the Research</a>
+            </div>
+      </div>
+        <div class="w3-dropdown-hover">
+    <button class="w3-button w3-padding-16">
+      Students in the Spotlight <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="javascript:void(0)" class="w3-bar-item w3-button">Spotlight Videos</a>
+      </div>
+      </div>
+  </div>
+
+
+<div class="w3-center">
+  <h2>About this Class</h2>
+  <p>ENGL 4824: Science Writing</p>
+  <div class="w3-padding-16">
+</div>   
+<div class="w3-row-padding"> 
+
+<button onclick="myAccFunc('Demo1')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Course Catalog Description</button>
+<div id="Demo1" class="w3-hide">
+  <div class="w3-container">
+    <p>Writing in and about the natural and social sciences. Students will write documents such as abstracts, research proposals, and ethnographies, analyze the development of disciplinary writing practices, and study non-fiction science writing for general audiences. Senior standing or instructor approval required.</p>
+  </div>
+</div>
+<button onclick="myAccFunc('Demo2')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Instructor's Description</button>
+<div id="Demo3" class="w3-hide w3-black">
+  <div class="w3-container">
+    <p>In this course, we will closely analyze the structure and content of scientific journal articles in IMRAD format. In addition, we will trace the origins of writing about scientific research and its connection to classical and current rhetoric. After exploring writing about primary scientific research, we will partner with the Fralin Life Science Institute and the Center for Communicating Science to conduct interviews with VT science students and write spotlight stories about their research. Each student’s story is eligible for consideration to be published by one of these partner organizations. Specifically, our interviews will highlight the research of women and people of color in the sciences, and some of our readings will address the reasoning behind and importance of this practice. Finally, our course will culminate in a collaborative project that aims to communicate science. Students are responsible for developing the content and format of this project in partnership with the Center for Communicating Science and under the advisement and direction of the instructor.</p>
+    <img src="/sciencewriting/infographic.png" style="width:30%;" class="w3-animate-zoom">
+    <p>Syllabus Infographic</p>
+    </div>
+</div>
+<button onclick="myAccFunc('Demo3')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">A Note from the Instructor</button>
+<div id="Demo1" class="w3-hide">
+  <div class="w3-container">
+    <p>Students in this class decided what to create for their final collaborative project in Spring 2018, and they created three main content areas: science communication, video transcript analysis, and shortened interview videos. While I guided students during this process and offered feedback on their content, they worked in teams to produce what you see on these pages. Watching their work materialize has been one of the most rewarding experiences of my teaching career so far. I hope you enjoy and find use for what they have creatively and conscientiously contributed to science writing and communication.</p>
+  </div>
+</div>
+<div class="w3-padding-16">
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-theme-dark w3-padding-16">
+  <h3>Created by Science Writing Students at Virginia Tech</h3>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-theme-light w3-padding">Go To Top</span>   
+    <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+  <p>Copyright 2018</p>
+</footer>
+
+<!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
+<script>
+// Tabs
+function openCity(evt, cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  var activebtn = document.getElementsByClassName("testbtn");
+  for (i = 0; i < x.length; i++) {
+      activebtn[i].className = activebtn[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-dark-grey";
+}
+var mybtn = document.getElementsByClassName("testbtn")[0];
+mybtn.click();
+// Accordions
+function myAccFunc(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+// Slideshows
+var slideIndex = 1;
+function plusDivs(n) {
+slideIndex = slideIndex + n;
+showDivs(slideIndex);
+}
+function showDivs(n) {
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+showDivs(1);
+// Progress Bars
+function move() {
+  var elem = document.getElementById("myBar");   
+  var width = 5;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width == 100) {
+      clearInterval(id);
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+      elem.innerHTML = width * 1  + '%';
+    }
+  }
+}
+</script>
+
+</body>
+</html>
